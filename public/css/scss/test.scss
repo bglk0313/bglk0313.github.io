@@ -1,3 +1,14 @@
+$primary-color: #70161E;
 body{
-    background-color: gray;
+    font-family: impact ,"微軟正黑體";
+    color: $primary-color;
+    background-color: #eba0bf;
+}
+.btn-primary{
+    background-color: $primary-color;
+    color: rgb(39, 149, 168);
+    padding: 8px;
+    border-radius: 4px;
+    text-decoration: none;
+    letter-spacing: 2px;
 }
