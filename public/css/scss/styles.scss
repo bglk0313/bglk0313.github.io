@@ -1,7 +1,5 @@
 $primary-color:#bdb3a7;
-header>.container>h1{
-    color: white;
-}
+
 *{
     margin: 0;
     padding: 0;
@@ -21,11 +19,11 @@ body{
     margin: auto;
     width: 90%;
     max-width: 1140px;
-    // background-color: orange;
+
 }
 
 header{
-    background-color: #272833;
+    background-color: #3e3749;
 }
 header>.container>h1{
     padding-top:20px;
@@ -36,7 +34,7 @@ header>.container>h1>a{
 
 header>.container>nav>ul{
     display: flex;
-    /* justify-content: space-between; */
+
 }
 header>.container>nav>ul>li{
     margin-right: 30px;
@@ -56,6 +54,8 @@ header>.container>nav>ul>li>a{
 .img-circle{
     border-radius: 100%;
 }
+
+
 .text-center{
     text-align: center;
 }
@@ -68,29 +68,48 @@ header>.container>nav>ul>li>a{
 .text-justify{
     text-align: justify;
 }
+
 .row{
     display: flex;
     flex-wrap: wrap;
 }
-.col-3 {
+.col-3{
     width: calc(100% / 4 - 30px);
-    margin: 0px 15px 40px 15px;
-  }
-  
-  .col-4 {
-    width: calc(100% / 3 - 30px);
-    margin: 0px 15px 40px 15px;
-  }
-  
-  .col-6 {
-    width: calc(100% / 2 - 30px);
-    margin: 0px 15px 40px 15px;
-  }
-  .title a{
-    color:black;
-    font-size: 1.5em;
-font-weight: 700;  
+    margin:0px 15px 40px 15px;
+
 }
-  .description{
+.col-4{
+    width: calc(100% / 3 - 30px);
+    margin:0px 15px 40px 15px;
+}
+
+.col-6{
+    width: calc(100% / 2 - 30px);
+    margin:0px 15px 40px 15px;
+}
+.title a{
+    color: black;
+    font-size: 1.5em;
+    font-weight: 700;
+}
+.date{
     color: $primary-color;
-  }
+}
+h2{
+    font-size: 2em;
+    margin: 60px auto 30px auto;
+}
+footer{
+    background: $primary-color;
+    padding: 40px 0 40px 0;
+}
+dt{
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+dd{
+    margin-bottom: 4px;
+}
+dd>a{
+    color: #3e3749;
+}
