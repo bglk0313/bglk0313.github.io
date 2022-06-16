@@ -17,7 +17,7 @@ body {
 
 .container {
   margin: auto;
-  width: 100%;
+  width: 80%;
 }
 
 header {
@@ -203,7 +203,7 @@ li.color div.main {
 }
 
 aside > ul > li {
-  background-color: #c44444;
+  background-color: #8d839c;
   border-radius: 10px;
   margin-bottom: 15px;
   text-align: center;
