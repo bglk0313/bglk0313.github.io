@@ -146,18 +146,18 @@ div.main {
   cursor: pointer;
 }
 
-li.color-blue div.main {
+li.color01 div.main {
   background-color: #d3a46f;
 }
 
-li.color-red div.main {
+li.color02 div.main {
   background-color: #d3a46f;
 }
 
-li.color-yellow div.main {
+li.color03 div.main {
   background-color: #d3a46f;
 }
 
-li.color-green div.main {
+li.color04 div.main {
   background-color: #d3a46f;
 }
