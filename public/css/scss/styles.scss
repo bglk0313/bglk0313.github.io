@@ -17,8 +17,8 @@ body{
 
 .container{
     margin: auto;
-    width: 90%;
-    max-width: 1140px;
+    width: 100%;
+   
 
 }
 
@@ -110,6 +110,7 @@ h2{
 footer{
     background: #3e3749;
     padding: 40px 0 40px 0;
+    width: 100%;
 }
 dt{
     color: #bdb3a7;
@@ -156,15 +157,11 @@ li.color div.main {
 	background-color:#d3a46f;
 
 }
-.breadcrmu{
+.breadcrumb{
     display: flex;
     margin-top:20px;
     margin-bottom: 20px;
     width: 100%;
-}
-.breadcrmund a{
-    color :black;
-
 }
 
 .w-20{
@@ -187,3 +184,22 @@ text-align:center;
     background-color: black;
     color:$primary-color;
 }
+
+aside>ul>li{
+    background-color: rgb(196, 68, 68);
+    border-radius: 10px;
+    margin-bottom: 15px;
+    text-align: center;
+    
+}
+
+aside>ul>li>a{
+    display: block;
+    color: #3e3749;
+    line-height: 50px;
+}
+
+aside>ul>li>a:hover{
+color: azure;
+}
+
