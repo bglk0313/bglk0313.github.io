@@ -100,10 +100,11 @@ h2{
     margin: 60px auto 30px auto;
 }
 footer{
-    background: $primary-color;
+    background: #3e3749;
     padding: 40px 0 40px 0;
 }
 dt{
+    color: #bdb3a7;
     font-size: 1.2em;
     margin-bottom: 10px;
 }
@@ -111,5 +112,39 @@ dd{
     margin-bottom: 4px;
 }
 dd>a{
-    color: #696363;
+    color: #bdb3a7;
+}
+// ----------------
+
+#nav {
+	width:190px;
+}
+
+#nav li {
+	list-style: none;
+}
+
+div.main {
+	height: 60px;
+	line-height: 60px;
+	text-indent:25px;
+	background-color:#d3a46f;
+	cursor:pointer;
+}
+
+li.color-blue div.main {
+	background-color:#d3a46f;
+}
+
+li.color-red div.main {
+	background-color:#d3a46f;
+}
+
+li.color-yellow div.main {
+	background-color:#d3a46f;
+}
+
+li.color-green div.main {
+	background-color:#d3a46f;
+
 }
